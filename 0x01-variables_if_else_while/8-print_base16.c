@@ -14,9 +14,10 @@ int main(void)
 
 	while (i <= 15)
 	{
-		printf("%x", i);
+		putchar(i + '0');
 		i++;
 	}
+	putchar('\n');
 
 
 	return (0);
