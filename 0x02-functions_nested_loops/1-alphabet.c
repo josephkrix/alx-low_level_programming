@@ -1,13 +1,9 @@
 #include "main.h"
 
-
-
 /**
- * main - Entry point
+ * main - check the code
  *
- * Descriptipm: 'print_alphabet'
- *
- *  Return: Always 0 (Succes)
+ *  Return: Always 0.
  */
 
 void print_alphabet(void)

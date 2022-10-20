@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
+ * main - checkthe code
  *
- * Description: 'fibnacci'
- *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 
 int numLength(int num)
@@ -34,13 +32,13 @@ int main(void)
 
 	while (i <= 98)
 	{
-		if (f10 > 0)
+		if (f1o > 0)
 		{
 			printf("%lu", f1o);
 		}
 
 		initials = numLength(mx) - 1 -numLength(f1);
-		while (f1o > o && initials > 0)
+		while (f1o > 0 && initials > 0)
 		{
 			printf("%i", 0);
 			initials--;

@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
+ * main - check the code.
  *
- * Description: 'sum even fiboonacci'
- *
- * Return: Alwasy 0 (Success)
+ * Return: Alwasy 0
  */
 
 int main(void)
