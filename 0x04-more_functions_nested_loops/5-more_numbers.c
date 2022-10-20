@@ -8,7 +8,7 @@
 
 void more_numbers(void)
 {
-	char c, j;
+	int c, j;
 
 	for (c = '0'; c <= '9'; c++)
 	{
@@ -19,6 +19,6 @@ void more_numbers(void)
 				_puchar((j%10) + '0');
 			
 		}
-		_puchar('i\n');
+		_puchar('c\n');
 	}
 }
