@@ -2,10 +2,10 @@
 
 /**
  * mul - multiplies two digits
- * 
- * Description: 'function to multiply'.
+ * @a: first integer
+ * @b: second interger
  *
- * Return: Always 0.
+ * Return: addition of a and b
  */
 
 int mul(int a, int b)
