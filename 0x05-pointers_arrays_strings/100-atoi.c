@@ -23,9 +23,9 @@ int _atoi(char *s)
 		{
 			number = number * 10;
 			number = number - (s[index] - '0');
-			booloean = 1;
+			boolean = 1;
 		}
-		else if (booloean == 1)
+		else if (boolean == 1)
 		{
 			break;
 		}
