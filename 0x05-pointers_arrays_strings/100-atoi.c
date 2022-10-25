@@ -9,8 +9,7 @@
 int _atoi(char *s)
 {
 	int sign = -1;
-	long int number = 0;
-	int index = 0;
+	int number = 0, index = 0;
 	short boolean = 0;
 
 	while (s[index] != '\0')
