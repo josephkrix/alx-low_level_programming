@@ -1,5 +1,7 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdio.h>
+
+void print_string(char *str);
 
 /**
 * main - Prints its name
@@ -13,15 +15,27 @@
 
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	int i;
-
-	i = 0;
-	while (argv[0][i] != '\0')
-	{
-		write(1, &argv[0][i], 1);
-		i++;
-	}
-	write(1, "\n", 1);
+	print_string(argv[0]);
+	putchar('\n');
 
 	return (0);
+}
+
+/**
+* print_string - Prints all char of a string
+*
+* @str: Pointer to string
+*
+* Return: void
+*/
+
+void print_string(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		putchar(str[i]);
+		i++;
+	}
 }
